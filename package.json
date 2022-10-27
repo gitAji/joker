@@ -1,12 +1,14 @@
 {
   "name": "aji-joker",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "English jokes",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,11 @@
   },
   "homepage": "https://github.com/gitAji/joker#readme",
   "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1",
     "prettier": "^2.7.1"
   },
   "dependencies": {
