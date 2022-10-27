@@ -1,0 +1,22 @@
+{
+  "name": "joker",
+  "version": "1.0.0",
+  "description": "English jokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitAji/joker.git"
+  },
+  "keywords": [
+    "jokes"
+  ],
+  "author": "Ajee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitAji/joker/issues"
+  },
+  "homepage": "https://github.com/gitAji/joker#readme"
+}
