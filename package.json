@@ -1,12 +1,13 @@
 {
   "name": "aji-joker",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "English jokes",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "node src/js/joker.test.js",
-    "format": "prettier -w src/**/*.js"  },
+    "format": "prettier -w src/**/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gitAji/joker.git"
